@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Privacy protection in the era of smart healthcare: the forefront and challenges of biomedical and health informatics under the integration of high-precision and cutting-edge technologies
+<font size="7">Privacy protection in the era of smart healthcare: the forefront and challenges of biomedical and health informatics under the integration of high-precision and cutting-edge technologies</font>
 
 # Introduction 
 ---
