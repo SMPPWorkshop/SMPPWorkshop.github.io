@@ -1,5 +1,4 @@
 ---
-layout: default
 ---
 
 @import "{{ site.theme }}";
