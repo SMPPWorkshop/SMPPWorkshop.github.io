@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="/assets/css/style.css">
-
 Privacy protection in the era of smart healthcare: the forefront and challenges of biomedical and health informatics under the integration of high-precision and cutting-edge technologies
 
 # Introduction 
