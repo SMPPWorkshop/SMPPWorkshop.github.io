@@ -1,7 +1,6 @@
 ---
+layout: default
 ---
-
-@import "{{ site.theme }}";
 
 Privacy protection in the era of smart healthcare: the forefront and challenges of biomedical and health informatics under the integration of high-precision and cutting-edge technologies
 
