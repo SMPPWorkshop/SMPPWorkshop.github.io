@@ -72,7 +72,7 @@ Through interdisciplinary dialogue and collaboration, the seminar aims to foster
 - Dr. Shuai Guo, Expert in Innovation at the Intersection of Medicine and Technology  
 - Dr. Junming Li, Expert in Genomic Data Privacy in Precision Medicine 
 - Dr. Yutong Wu, Expert in bioinformatics and AI privacy 
-- Dr. Samir M. Umran, Expert in Privacy Protection in Health Information Systems 
+- Dr. Samir M. Umran, Expert in Lightweight and Scalable Blockchain Consensus Algorithm 
 
 # Invited Keynote Speaker 
 ---
