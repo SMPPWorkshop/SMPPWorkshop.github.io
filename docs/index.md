@@ -55,7 +55,12 @@ Through interdisciplinary dialogue and collaboration, the seminar aims to foster
 - Full Paper Submission Deadline: October 15, 2025 
 - Notification of Acceptance: November 10, 2025 
 - Camera-Ready Submission: November 23, 2025 
-- Workshop Date: December 15, 2025 
+- Workshop Date: December 15, 2025
+
+# Best Paper
+---
+**PFL-MD: A Privacy-Preserving Federated Learning Framework for MelanomaDiagnosis with Multiple Party Fully Homomorphic Encryption**
+*Authors: Liangxi Liu, Yifan Wang, jihe Li, Mengyao Zheng, Zegui Jiang, Yijun Song, and Xiang Liu*
 
 # Program Chairs 
 ---
