@@ -156,19 +156,6 @@ body {
   box-shadow: 0 8px 24px rgba(31, 95, 174, 0.08);
 }
 
-.main-content > p:first-of-type {
-  margin: 0.9rem 2rem;
-  padding: 0;
-  background: transparent;
-  border: none;
-  border-radius: 0;
-  color: var(--text);
-  font-size: 1rem !important;
-  line-height: 1.9;
-  font-weight: 400;
-  box-shadow: none;
-}
-
 /* ========== 一级标题 ========== */
 .main-content h1 {
   margin: 2.2rem 2rem 0.8rem;
