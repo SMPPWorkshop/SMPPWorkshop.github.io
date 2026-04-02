@@ -141,20 +141,32 @@ body {
 }
 
 /* ========== 首行大标题（你 md 里那个 <font size="5">） ========== */
-.main-content > p:first-of-type,
 .main-content > font:first-of-type {
   display: block;
   margin: 1.2rem 2rem 1.8rem;
   padding: 1.55rem 1.75rem;
-  background: #ffffff;
-  border: 1px solid #e3ebf5;
-  border-left: none;
+  background: linear-gradient(135deg, #eef6ff 0%, #f5fcfb 100%);
+  border: 1px solid #dbe8f6;
+  border-left: 6px solid var(--primary-2);
   border-radius: 16px;
   color: var(--heading);
   font-size: 1.52rem !important;
   line-height: 1.58;
   font-weight: 750;
-  box-shadow: 0 8px 24px rgba(15, 39, 68, 0.05);
+  box-shadow: 0 8px 24px rgba(31, 95, 174, 0.08);
+}
+
+.main-content > p:first-of-type {
+  margin: 0.9rem 2rem;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  color: var(--text);
+  font-size: 1rem !important;
+  line-height: 1.9;
+  font-weight: 400;
+  box-shadow: none;
 }
 
 /* ========== 一级标题 ========== */
