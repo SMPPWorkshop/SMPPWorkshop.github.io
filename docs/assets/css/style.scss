@@ -146,15 +146,15 @@ body {
   display: block;
   margin: 1.2rem 2rem 1.8rem;
   padding: 1.55rem 1.75rem;
-  background: linear-gradient(135deg, #eef6ff 0%, #f5fcfb 100%);
-  border: 1px solid #dbe8f6;
-  border-left: 6px solid var(--primary-2);
+  background: #ffffff;
+  border: 1px solid #e3ebf5;
+  border-left: none;
   border-radius: 16px;
   color: var(--heading);
   font-size: 1.52rem !important;
   line-height: 1.58;
   font-weight: 750;
-  box-shadow: 0 8px 24px rgba(31, 95, 174, 0.08);
+  box-shadow: 0 8px 24px rgba(15, 39, 68, 0.05);
 }
 
 /* ========== 一级标题 ========== */
