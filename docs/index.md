@@ -2,85 +2,175 @@
 layout: default
 ---
 
-<font size="5">Privacy protection in the era of smart healthcare: the forefront and challenges of biomedical and health informatics under the integration of high-precision and cutting-edge technologies</font>
+<section class="hero-panel">
+  <p class="eyebrow">2025 IEEE BIBM Workshop</p>
+  <h1 class="hero-title">Smart Medicine and Privacy Protection</h1>
+  <p class="hero-subtitle">
+    Challenges and frontiers in biomedical and health informatics at the intersection of AI,
+    connected healthcare systems, and privacy-enhancing technologies.
+  </p>
+  <div class="hero-tags">
+    <span>AI for Healthcare</span>
+    <span>Privacy Protection</span>
+    <span>Biomedical Informatics</span>
+    <span>Secure Data Sharing</span>
+  </div>
+</section>
 
-# Introduction 
----
+<section class="section-block intro-block">
+  <div class="section-heading">
+    <p class="section-kicker">Introduction</p>
+    <h2>Why this workshop matters</h2>
+  </div>
+  <div class="intro-grid">
+    <div class="intro-card">
+      <h3>The challenge</h3>
+      <p>
+        Smart healthcare is rapidly integrating artificial intelligence, wearable devices, IoT,
+        telemedicine, and large-scale biomedical data analysis. These advances improve clinical
+        care and research, but they also increase the risk of data leakage, re-identification,
+        insecure sharing, and misuse of sensitive health information.
+      </p>
+    </div>
+    <div class="intro-card">
+      <h3>The focus</h3>
+      <p>
+        This workshop brings together researchers and practitioners working on privacy-aware
+        biomedical and health informatics, with particular interest in secure learning, privacy
+        computing, trustworthy data governance, and responsible deployment in real healthcare
+        settings.
+      </p>
+    </div>
+  </div>
+</section>
 
-The rapid development of biomedical and healthcare information technology is transforming clinical care, personalized medicine, and medical research. At the forefront of this transformation is intelligent medicine, a field characterized by the convergence of artificial intelligence, wearable devices and remote monitoring, the Internet of Things (IoT), 5G and telemedicine, big data analytics, and health informatics. This represents a deep integration of high-precision technologies with healthcare.
+<section class="section-block">
+  <div class="section-heading">
+    <p class="section-kicker">Call for Papers</p>
+    <h2>Highlighted topics of interest</h2>
+    <p>
+      We welcome original work on privacy, security, and trustworthy intelligence for biomedical
+      and healthcare data.
+    </p>
+  </div>
 
-The cross-fusion of these technologies is driving the evolution of medical services toward greater intelligence, precision, and efficiency. However, it also raises serious concerns regarding the privacy, security, and governance of sensitive health and genomic data. For instance:
-- Artificial intelligence in smart healthcare requires the processing of large volumes of sensitive health data, introducing risks such as model leakage, data misuse, and adversarial attacks—especially during centralized storage and training, which are vulnerable to theft and reverse inference.
-- Wearable devices and remote monitoring continuously collect users’ physiological data, making them susceptible to threats such as data transmission breaches, device tampering, and identity spoofing.
-- IoT systems connect numerous sensors and medical devices, which can be exposed to unauthorized access, data exfiltration, and remote control attacks, potentially compromising patient privacy and device integrity.
-- Big data analytics and health informatics involve managing massive, distributed datasets across institutions and platforms, heightening the risk of centralized data breaches and re-identification through data correlation.
+  <div class="topic-grid">
+    <article class="topic-card">
+      <h3>Multimodal smart healthcare data</h3>
+      <ul>
+        <li>Wearables, imaging, EHRs, remote monitoring, and high-risk data streams</li>
+        <li>Cross-modal privacy alignment, leakage prevention, and sensitive signal analysis</li>
+      </ul>
+    </article>
 
-This seminar aspires to serve as an interdisciplinary platform focused on intelligent medicine and privacy protection. Key areas of discussion will include the integration of privacy-enhancing technologies—such as federated learning, homomorphic encryption, differential privacy, zero-knowledge proofs, and secure multi-party computation—with intelligent medical applications. Topics will span artificial intelligence, wearable and remote monitoring systems, IoT, 5G-enabled healthcare, bioinformatics, medical data analytics, and data governance, alongside the regulatory, ethical, and legal frameworks required to enable the responsible use of health data.
+    <article class="topic-card">
+      <h3>Privacy protection in health information systems</h3>
+      <ul>
+        <li>Fine-grained encryption, access control, anonymization, and de-identification</li>
+        <li>Deployment and evaluation of privacy-enhancing technologies in clinical systems</li>
+      </ul>
+    </article>
 
-Through interdisciplinary dialogue and collaboration, the seminar aims to foster innovative, trustworthy approaches to health data management in the era of intelligent healthcare.
+    <article class="topic-card">
+      <h3>Privacy-preserving AI and machine learning</h3>
+      <ul>
+        <li>Federated learning, secure inference, model protection, and privacy-performance tradeoffs</li>
+        <li>Trustworthy AI-assisted diagnosis, drug discovery, and decision support</li>
+      </ul>
+    </article>
 
-# Topics of Interest  (Not limited to)
----
+    <article class="topic-card">
+      <h3>Genomic data privacy and governance</h3>
+      <ul>
+        <li>Cross-database genomic privacy risks, consent, access control, and auditing</li>
+        <li>Ethical governance, interoperability, and secure medical data sharing frameworks</li>
+      </ul>
+    </article>
+  </div>
+</section>
 
-## Multimodal Data Intelligence and Privacy Challenges in Smart Healthcare
-- Multimodal medical data collection, analysis, and governance involving wearable devices, medical imaging, electronic health records (EHRs), and remote monitoring systems, targeting high-frequency, strongly correlated, and easily re-identifiable sensitive information streams
-- Semantic sensitivity recognition, patient entity protection, and controllable context generation in clinical information retrieval and knowledge extraction based on natural language processing (NLP)
-- Privacy-preserving mechanisms for AI-assisted decision-making systems in rare disease diagnosis, orphan drug discovery, and drug repurposing, including data anonymization, protection of rare samples, and secure inference
-- Privacy alignment and leakage prevention in the integration of multimodal data (e.g., images, text, physiological signals, speech, device logs) and high-throughput omics data, especially under differential analysis and cross-modal fusion scenarios
+<section class="section-block section-split">
+  <div>
+    <div class="section-heading">
+      <p class="section-kicker">Schedule</p>
+      <h2>Important dates</h2>
+    </div>
+    <div class="date-list">
+      <div class="date-item"><strong>Call for Papers</strong><span>June 25, 2025</span></div>
+      <div class="date-item"><strong>Full Paper Submission</strong><span>October 15, 2025</span></div>
+      <div class="date-item"><strong>Notification of Acceptance</strong><span>November 10, 2025</span></div>
+      <div class="date-item"><strong>Camera-Ready Submission</strong><span>November 23, 2025</span></div>
+      <div class="date-item"><strong>Workshop Date</strong><span>December 15, 2025</span></div>
+    </div>
+  </div>
 
-## Privacy Protection Mechanisms in Health Information Systems
-- Fine-grained encryption and access control for EHRs, ICU monitoring data, and clinical records
-- Anonymization and de-identification methods for both structured and unstructured health data
-- Deployment of privacy-enhancing technologies such as differential privacy and homomorphic encryption in real-world hospital information systems, with evaluation of performance and scalability
+  <div>
+    <div class="section-heading">
+      <p class="section-kicker">Recognition</p>
+      <h2>Best paper</h2>
+    </div>
+    <article class="best-paper-card">
+      <h3>PFL-MD: A Privacy-Preserving Federated Learning Framework for Melanoma Diagnosis with Multiple Party Fully Homomorphic Encryption</h3>
+      <p>Liangxi Liu, Yifan Wang, Jihe Li, Mengyao Zheng, Zegui Jiang, Yijun Song, and Xiang Liu</p>
+    </article>
+  </div>
+</section>
 
-## Privacy-Preserving Artificial Intelligence and Machine Learning
-- Trade-off optimization between privacy protection and model performance, including privacy-aware neural network design, privacy regularization, model encryption, and pruning strategies
-- Efficient deployment of federated learning in healthcare scenarios, addressing multi-institutional collaboration, data isolation, and model consistency
-- Secure inference and privacy-preserving knowledge distillation techniques for sensitive medical environments
+<section class="section-block">
+  <div class="section-heading">
+    <p class="section-kicker">People</p>
+    <h2>Organizing committee</h2>
+  </div>
 
-## Genomic Data Privacy in Precision Medicine
-- Privacy and security risks in the integration of genomic data across databases (e.g., single-cell sequencing and clinical phenotype linkage)
-- De-identification technologies, revocable consent frameworks, and personalized access control schemes
-- Compliance auditing and privacy assurance mechanisms for genomic research platforms (e.g., GDPR, IRB approval)
+  <h3 class="group-title">Program Chairs</h3>
+  <div class="people-grid">
+    <article class="person-card">
+      <h4>Prof. Songfeng Lu</h4>
+      <p>Director; expert in bioinformatics and data privacy</p>
+    </article>
+    <article class="person-card">
+      <h4>Dr. Zhe Dong</h4>
+      <p>Expert in smart medicine and CEO of Wuhan Ding'an Huasheng Technology Co., Ltd.</p>
+    </article>
+    <article class="person-card">
+      <h4>Dr. Zhi Lu</h4>
+      <p>Expert in privacy computing and genomic data security</p>
+    </article>
+  </div>
 
-## Ethical Governance and Secure Medical Data Sharing
-- Interoperability standards and secure data exchange protocols across heterogeneous medical systems (e.g., FHIR, OAuth2.0 + ABAC-based access control)
-- Responsibility allocation, ethical review processes, and transparent data disclosure strategies in data sharing practices
-- Patient-centered consent negotiation frameworks and data sovereignty mechanisms, such as informed data authorization chains and verifiable access logging systems
+  <h3 class="group-title">Program Committee Members</h3>
+  <div class="people-grid compact">
+    <article class="person-card">
+      <h4>Dr. Renfei Shen</h4>
+      <p>Medical data sharing and ethical governance</p>
+    </article>
+    <article class="person-card">
+      <h4>Dr. ZiLong Wang</h4>
+      <p>Privacy-preserving AI and machine learning</p>
+    </article>
+    <article class="person-card">
+      <h4>Dr. Shuai Guo</h4>
+      <p>Innovation at the intersection of medicine and technology</p>
+    </article>
+    <article class="person-card">
+      <h4>Dr. Junming Li</h4>
+      <p>Genomic data privacy in precision medicine</p>
+    </article>
+    <article class="person-card">
+      <h4>Dr. Yutong Wu</h4>
+      <p>Bioinformatics and AI privacy</p>
+    </article>
+    <article class="person-card">
+      <h4>Dr. Samir M. Umran</h4>
+      <p>Lightweight and scalable blockchain consensus algorithms</p>
+    </article>
+  </div>
 
-# Important Dates 
----
-
-- Call for Papers: June 25, 2025 
-- Full Paper Submission Deadline: October 15, 2025 
-- Notification of Acceptance: November 10, 2025 
-- Camera-Ready Submission: November 23, 2025 
-- Workshop Date: December 15, 2025
-
-# Best Paper
----
-**PFL-MD: A Privacy-Preserving Federated Learning Framework for MelanomaDiagnosis with Multiple Party Fully Homomorphic Encryption**
-*Authors: Liangxi Liu, Yifan Wang, jihe Li, Mengyao Zheng, Zegui Jiang, Yijun Song, and Xiang Liu*
-
-# Program Chairs 
----
-
-- Prof. Songfeng Lu – Director; Expert in Bioinformatics and Data Privacy 
-- Dr. Zhe Dong – Expert in Smart Medicine and the CEO of Wuhan Ding 'an Huasheng Technology Co., LTD. 
-- Dr. Zhi Lu – Expert in Privacy Computing and Genomic Data Security 
-
-# Program Committee Members
----
-
-- Dr. Renfei Shen, Expert in Medical Data Sharing and Ethical Governance 
-- Dr. ZiLong Wang, Expert in Privacy-Preserving AI and Machine Learning  
-- Dr. Shuai Guo, Expert in Innovation at the Intersection of Medicine and Technology  
-- Dr. Junming Li, Expert in Genomic Data Privacy in Precision Medicine 
-- Dr. Yutong Wu, Expert in bioinformatics and AI privacy 
-- Dr. Samir M. Umran, Expert in Lightweight and Scalable Blockchain Consensus Algorithm 
-
-# Invited Keynote Speaker 
----
-
-- Dr. Zhe Dong – Expert in Smart Medicine and the CEO of Wuhan Ding 'an Huasheng Technology Co., LTD
-
+  <h3 class="group-title">Invited Keynote Speaker</h3>
+  <div class="people-grid">
+    <article class="person-card keynote-card">
+      <h4>Dr. Zhe Dong</h4>
+      <p>Expert in smart medicine and CEO of Wuhan Ding'an Huasheng Technology Co., Ltd.</p>
+    </article>
+  </div>
+</section>
