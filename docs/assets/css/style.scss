@@ -29,6 +29,81 @@ body {
   font-size: 17px;
 }
 
+html.has-loader-js body:not(.is-loaded) {
+  overflow: hidden;
+}
+
+#page-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(circle at 20% 10%, rgba(217, 119, 6, 0.2), transparent 35%),
+    radial-gradient(circle at 80% 90%, rgba(15, 139, 141, 0.24), transparent 36%),
+    linear-gradient(135deg, #102334 0%, #0d5c63 100%);
+  transition: opacity 0.55s ease, visibility 0.55s ease;
+}
+
+.loader-core {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.loader-ring {
+  width: 58px;
+  height: 58px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.26);
+  border-top-color: #ffffff;
+  animation: loader-spin 0.9s linear infinite;
+}
+
+.loader-core p {
+  margin: 0.85rem 0 0;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  font-size: 0.76rem;
+  font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+}
+
+body.is-loaded #page-loader {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+html.has-loader-js .main-content > section {
+  opacity: 0;
+  transform: translateY(18px);
+}
+
+html.has-loader-js body.is-loaded .main-content > section {
+  animation: section-reveal 0.7s cubic-bezier(0.2, 0.65, 0.2, 1) forwards;
+}
+
+html.has-loader-js body.is-loaded .main-content > section:nth-child(1) { animation-delay: 0.02s; }
+html.has-loader-js body.is-loaded .main-content > section:nth-child(2) { animation-delay: 0.1s; }
+html.has-loader-js body.is-loaded .main-content > section:nth-child(3) { animation-delay: 0.18s; }
+html.has-loader-js body.is-loaded .main-content > section:nth-child(4) { animation-delay: 0.26s; }
+html.has-loader-js body.is-loaded .main-content > section:nth-child(5) { animation-delay: 0.34s; }
+
+@keyframes loader-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes section-reveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .page-header {
   position: relative;
   padding: 5.2rem 1.5rem 5.8rem;
@@ -206,6 +281,29 @@ body {
   color: var(--muted);
 }
 
+.section-heading-featured .section-major-title {
+  display: inline-block;
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--heading);
+  border-bottom: 3px solid rgba(13, 92, 99, 0.28);
+  padding-bottom: 0.15rem;
+}
+
+.section-subtitle {
+  margin: 0.55rem 0 0;
+  font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.section-lead {
+  margin-top: 0.85rem;
+}
+
 .intro-grid,
 .topic-grid,
 .people-grid,
@@ -333,8 +431,45 @@ body {
   margin: 1.8rem 0 1rem;
 }
 
+.committee-block {
+  background:
+    radial-gradient(circle at top right, rgba(13, 92, 99, 0.08), transparent 30%),
+    linear-gradient(180deg, #fffdfa 0%, #fff7ed 100%);
+}
+
+.committee-group {
+  margin-top: 1.2rem;
+  padding: 1rem;
+  border: 1px solid rgba(13, 92, 99, 0.14);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.committee-group .group-title {
+  margin: 0 0 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.94rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #0f4d53;
+  background: rgba(13, 92, 99, 0.1);
+}
+
 .person-card {
   background: #ffffff;
+  border-color: rgba(13, 92, 99, 0.18);
+  box-shadow: 0 8px 20px rgba(18, 32, 51, 0.06);
+  transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease;
+}
+
+.person-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(13, 92, 99, 0.32);
+  box-shadow: 0 14px 28px rgba(18, 32, 51, 0.12);
 }
 
 .person-card h4 {
@@ -413,8 +548,27 @@ body {
     font-size: 1.45rem;
   }
 
+  .section-heading-featured .section-major-title {
+    font-size: 1.62rem;
+  }
+
+  .committee-group {
+    padding: 0.85rem;
+  }
+
   .date-item {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loader-ring,
+  html.has-loader-js body.is-loaded .main-content > section {
+    animation: none !important;
+  }
+
+  #page-loader {
+    transition: none;
   }
 }
