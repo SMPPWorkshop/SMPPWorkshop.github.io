@@ -26,6 +26,20 @@ layout: default
     <span>Biomedical Informatics</span>
     <span>Secure Data Sharing</span>
   </div>
+  <div class="hero-meta" aria-label="Workshop highlights">
+    <div>
+      <strong>2nd Edition</strong>
+      <span>IEEE BIBM 2026</span>
+    </div>
+    <div>
+      <strong>Dec 1-4, 2026</strong>
+      <span>Fully online</span>
+    </div>
+    <div>
+      <strong>Sep 27, 2026</strong>
+      <span>Submission deadline</span>
+    </div>
+  </div>
 </section>
 
 <section class="section-block intro-block">
@@ -35,7 +49,7 @@ layout: default
   </div>
   <div class="intro-grid">
     <div class="intro-card">
-      <h3>The challenge</h3>
+      <h3>Building on the first edition</h3>
       <p>
         The 1st SMPP Workshop in 2025 received encouraging submissions and demonstrated
         strong community interest in smart medicine and privacy protection. Building on that
@@ -44,7 +58,7 @@ layout: default
       </p>
     </div>
     <div class="intro-card">
-      <h3>The focus</h3>
+      <h3>Workshop focus</h3>
       <p>
         This workshop brings together researchers and practitioners working on smart medicine,
         biomedical informatics, and privacy-preserving technologies for healthcare and life
@@ -61,7 +75,7 @@ layout: default
     <p class="section-subtitle">Highlighted topics of interest</p>
     <p class="section-lead">
       We welcome original work on privacy, security, and trustworthy intelligence for biomedical
-      and healthcare data.
+      and healthcare data. Topics of interest include, but are not limited to, the following areas.
     </p>
   </div>
 
