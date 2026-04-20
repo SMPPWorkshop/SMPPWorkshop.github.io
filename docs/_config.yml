@@ -3,7 +3,7 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-title: SMPP Workshop (2025 BIBM) 
-description: Smart Medicine and Privacy Protection: Challenges and Frontiers in Biomedical and Health Informatics
+title: The 2nd SMPP Workshop (2026 IEEE BIBM)
+description: "Smart Medicine and Privacy Protection: Challenges and Frontiers in Biomedical and Health Informatics"
 show_downloads: false
-google_analytics: 
+google_analytics:

@@ -14,11 +14,11 @@ layout: default
 </div>
 
 <section class="hero-panel">
-  <p class="eyebrow">2025 IEEE BIBM Workshop</p>
+  <p class="eyebrow">2026 IEEE BIBM Workshop</p>
   <h1 class="hero-title">Smart Medicine and Privacy Protection</h1>
   <p class="hero-subtitle">
-    Challenges and frontiers in biomedical and health informatics at the intersection of AI,
-    connected healthcare systems, and privacy-enhancing technologies.
+    The 2nd SMPP Workshop: challenges and frontiers in biomedical and health informatics
+    at the intersection of AI, connected healthcare systems, and privacy-enhancing technologies.
   </p>
   <div class="hero-tags">
     <span>AI for Healthcare</span>
@@ -37,19 +37,19 @@ layout: default
     <div class="intro-card">
       <h3>The challenge</h3>
       <p>
-        Smart healthcare is rapidly integrating artificial intelligence, wearable devices, IoT,
-        telemedicine, and large-scale biomedical data analysis. These advances improve clinical
-        care and research, but they also increase the risk of data leakage, re-identification,
-        insecure sharing, and misuse of sensitive health information.
+        The 1st SMPP Workshop in 2025 received encouraging submissions and demonstrated
+        strong community interest in smart medicine and privacy protection. Building on that
+        foundation, the 2nd SMPP Workshop at IEEE BIBM 2026 will further expand this forum
+        for interdisciplinary exchange.
       </p>
     </div>
     <div class="intro-card">
       <h3>The focus</h3>
       <p>
-        This workshop brings together researchers and practitioners working on privacy-aware
-        biomedical and health informatics, with particular interest in secure learning, privacy
-        computing, trustworthy data governance, and responsible deployment in real healthcare
-        settings.
+        This workshop brings together researchers and practitioners working on smart medicine,
+        biomedical informatics, and privacy-preserving technologies for healthcare and life
+        science applications, including trustworthy data management and responsible deployment
+        in real healthcare settings.
       </p>
     </div>
   </div>
@@ -67,34 +67,38 @@ layout: default
 
   <div class="topic-grid">
     <article class="topic-card">
-      <h3>Multimodal smart healthcare data</h3>
+      <h3>Multimodal data intelligence and privacy challenges</h3>
       <ul>
-        <li>Wearables, imaging, EHRs, remote monitoring, and high-risk data streams</li>
-        <li>Cross-modal privacy alignment, leakage prevention, and sensitive signal analysis</li>
+        <li>Wearables, medical imaging, EHRs, remote monitoring, and sensitive multimodal data streams</li>
+        <li>NLP-based clinical information retrieval, entity protection, and controllable context generation</li>
+        <li>Privacy alignment and leakage prevention across images, text, signals, logs, and omics data</li>
       </ul>
     </article>
 
     <article class="topic-card">
       <h3>Privacy protection in health information systems</h3>
       <ul>
-        <li>Fine-grained encryption, access control, anonymization, and de-identification</li>
-        <li>Deployment and evaluation of privacy-enhancing technologies in clinical systems</li>
+        <li>Fine-grained encryption and access control for EHRs, ICU monitoring data, and clinical records</li>
+        <li>Anonymization and de-identification for structured and unstructured health data</li>
+        <li>Deployment of differential privacy, homomorphic encryption, and related technologies in hospital systems</li>
       </ul>
     </article>
 
     <article class="topic-card">
       <h3>Privacy-preserving AI and machine learning</h3>
       <ul>
-        <li>Federated learning, secure inference, model protection, and privacy-performance tradeoffs</li>
-        <li>Trustworthy AI-assisted diagnosis, drug discovery, and decision support</li>
+        <li>Privacy-performance tradeoffs, privacy-aware neural networks, model encryption, and pruning</li>
+        <li>Federated learning for multi-institutional healthcare collaboration and data isolation</li>
+        <li>Secure inference and privacy-preserving knowledge distillation for sensitive medical environments</li>
       </ul>
     </article>
 
     <article class="topic-card">
       <h3>Genomic data privacy and governance</h3>
       <ul>
-        <li>Cross-database genomic privacy risks, consent, access control, and auditing</li>
-        <li>Ethical governance, interoperability, and secure medical data sharing frameworks</li>
+        <li>Genomic data integration risks across databases, single-cell sequencing, and clinical phenotype linkage</li>
+        <li>De-identification, revocable consent, personalized access control, and compliance auditing</li>
+        <li>Ethical governance, interoperability, secure exchange protocols, consent negotiation, and verifiable access logging</li>
       </ul>
     </article>
   </div>
@@ -107,22 +111,26 @@ layout: default
       <h2>Important dates</h2>
     </div>
     <div class="date-list">
-      <div class="date-item"><strong>Call for Papers</strong><span>June 25, 2025</span></div>
-      <div class="date-item"><strong>Full Paper Submission</strong><span>October 15, 2025</span></div>
-      <div class="date-item"><strong>Notification of Acceptance</strong><span>November 10, 2025</span></div>
-      <div class="date-item"><strong>Camera-Ready Submission</strong><span>November 23, 2025</span></div>
-      <div class="date-item"><strong>Workshop Date</strong><span>December 15, 2025</span></div>
+      <div class="date-item"><strong>Call for Papers</strong><span>June 25, 2026</span></div>
+      <div class="date-item"><strong>Full Paper Submission</strong><span>September 27, 2026</span></div>
+      <div class="date-item"><strong>Notification of Acceptance</strong><span>October 18, 2026</span></div>
+      <div class="date-item"><strong>Camera-Ready Submission</strong><span>November 8, 2026</span></div>
+      <div class="date-item"><strong>Workshop Date</strong><span>December 1-4, 2026</span></div>
     </div>
   </div>
 
   <div>
     <div class="section-heading">
-      <p class="section-kicker">Recognition</p>
-      <h2>Best paper</h2>
+      <p class="section-kicker">Format</p>
+      <h2>Workshop style</h2>
     </div>
     <article class="best-paper-card">
-      <h3>PFL-MD: A Privacy-Preserving Federated Learning Framework for Melanoma Diagnosis with Multiple Party Fully Homomorphic Encryption</h3>
-      <p>Liangxi Liu, Yifan Wang, Jihe Li, Mengyao Zheng, Zegui Jiang, Yijun Song, and Xiang Liu</p>
+      <h3>Fully online workshop</h3>
+      <p>
+        The workshop will be conducted through a virtual meeting platform to support paper
+        presentations, keynote talks, and interactive discussions. Detailed logistical arrangements
+        will be announced to authors upon paper acceptance.
+      </p>
     </article>
   </div>
 </section>
@@ -138,15 +146,15 @@ layout: default
     <div class="people-grid">
       <article class="person-card">
         <h4>Prof. Songfeng Lu</h4>
-        <p>Director; expert in bioinformatics and data privacy</p>
-      </article>
-      <article class="person-card">
-        <h4>Dr. Zhe Dong</h4>
-        <p>Expert in smart medicine and CEO of Wuhan Ding'an Huasheng Technology Co., Ltd.</p>
+        <p>Huazhong University of Science and Technology, China; expert in bioinformatics and data privacy</p>
       </article>
       <article class="person-card">
         <h4>Dr. Zhi Lu</h4>
-        <p>Expert in privacy computing and genomic data security</p>
+        <p>NUS School of Computing, National University of Singapore; expert in privacy computing and genomic data security</p>
+      </article>
+      <article class="person-card">
+        <h4>Dr. Renfei Shen</h4>
+        <p>Huazhong University of Science and Technology, China; expert in medical data sharing and ethical governance</p>
       </article>
     </div>
   </div>
@@ -155,11 +163,11 @@ layout: default
     <h3 class="group-title">Program Committee Members</h3>
     <div class="people-grid compact">
       <article class="person-card">
-        <h4>Dr. Renfei Shen</h4>
-        <p>Medical data sharing and ethical governance</p>
+        <h4>Assoc. Prof. Hewang Nie</h4>
+        <p>Medical model watermarking and copyright protection</p>
       </article>
       <article class="person-card">
-        <h4>Dr. ZiLong Wang</h4>
+        <h4>Dr. Zilong Wang</h4>
         <p>Privacy-preserving AI and machine learning</p>
       </article>
       <article class="person-card">
@@ -175,8 +183,8 @@ layout: default
         <p>Bioinformatics and AI privacy</p>
       </article>
       <article class="person-card">
-        <h4>Dr. Samir M. Umran</h4>
-        <p>Lightweight and scalable blockchain consensus algorithms</p>
+        <h4>Dr. Huan Liu</h4>
+        <p>Medical system vulnerability detection and fuzz testing</p>
       </article>
     </div>
   </div>
@@ -185,8 +193,8 @@ layout: default
     <h3 class="group-title">Invited Keynote Speaker</h3>
     <div class="people-grid">
       <article class="person-card keynote-card">
-        <h4>Dr. Zhe Dong</h4>
-        <p>Expert in smart medicine and CEO of Wuhan Ding'an Huasheng Technology Co., Ltd.</p>
+        <h4>Assoc. Prof. Hewang Nie</h4>
+        <p>Expert in medical model watermarking and copyright protection</p>
       </article>
     </div>
   </div>
