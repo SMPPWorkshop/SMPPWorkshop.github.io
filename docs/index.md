@@ -160,15 +160,15 @@ layout: default
     <div class="people-grid">
       <article class="person-card">
         <h4>Prof. Songfeng Lu</h4>
-        <p>Huazhong University of Science and Technology, China; expert in bioinformatics and data privacy</p>
+        <p>Huazhong University of Science and Technology, China, expert in bioinformatics and data privacy</p>
       </article>
       <article class="person-card">
         <h4>Dr. Zhi Lu</h4>
-        <p>NUS School of Computing, National University of Singapore; expert in privacy computing and genomic data security</p>
+        <p>NUS School of Computing, National University of Singapore, expert in privacy computing and genomic data security</p>
       </article>
       <article class="person-card">
         <h4>Dr. Renfei Shen</h4>
-        <p>Huazhong University of Science and Technology, China; expert in medical data sharing and ethical governance</p>
+        <p>Huazhong University of Science and Technology, China, expert in medical data sharing and ethical governance</p>
       </article>
     </div>
   </div>
