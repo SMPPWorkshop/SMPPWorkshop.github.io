@@ -406,6 +406,47 @@ html.has-loader-js body.is-loaded .main-content > section:nth-child(5) { animati
   margin-top: 0.85rem;
 }
 
+.submission-action {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.85rem;
+  margin-top: 1.25rem;
+}
+
+.submit-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.9rem;
+  padding: 0.72rem 1.1rem;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-2));
+  box-shadow: 0 12px 26px rgba(11, 89, 100, 0.22);
+  color: #ffffff !important;
+  font-family: "Aptos", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.92rem;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  border-bottom: 0 !important;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, background 0.22s ease;
+}
+
+.submit-button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, var(--primary-2), var(--accent));
+  box-shadow: 0 16px 30px rgba(11, 89, 100, 0.28);
+}
+
+.submission-action span {
+  color: var(--muted);
+  font-family: "Aptos", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
 .intro-grid,
 .topic-grid,
 .people-grid,
@@ -736,6 +777,15 @@ html.has-loader-js body.is-loaded .main-content > section:nth-child(5) { animati
   .date-item {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .submission-action {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .submit-button {
+    width: 100%;
   }
 
   .keynote-card h4::after {

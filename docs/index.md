@@ -32,7 +32,7 @@ layout: default
       <span>IEEE BIBM 2026</span>
     </div>
     <div>
-      <strong>Dec 1-4, 2026</strong>
+      <strong>Dec 1, 2026</strong>
       <span>Fully online</span>
     </div>
     <div>
@@ -77,6 +77,12 @@ layout: default
       We welcome original work on privacy, security, and trustworthy intelligence for biomedical
       and healthcare data. Topics of interest include, but are not limited to, the following areas.
     </p>
+    <div class="submission-action">
+      <a class="submit-button" href="https://wi-lab.com/cyberchair/2026/bibm26/scripts/ws_submit.php?subarea=S" target="_blank" rel="noopener">
+        Submit your paper
+      </a>
+      <span>Submission page item No. 26</span>
+    </div>
   </div>
 
   <div class="topic-grid">
@@ -125,11 +131,10 @@ layout: default
       <h2>Important dates</h2>
     </div>
     <div class="date-list">
-      <div class="date-item"><strong>Call for Papers</strong><span>June 25, 2026</span></div>
-      <div class="date-item"><strong>Full Paper Submission</strong><span>September 27, 2026</span></div>
-      <div class="date-item"><strong>Notification of Acceptance</strong><span>October 18, 2026</span></div>
-      <div class="date-item"><strong>Camera-Ready Submission</strong><span>November 8, 2026</span></div>
-      <div class="date-item"><strong>Workshop Date</strong><span>December 1-4, 2026</span></div>
+      <div class="date-item"><strong>Due date for workshop papers submission</strong><span>Sept. 27, 2026</span></div>
+      <div class="date-item"><strong>Notification of paper acceptance to authors</strong><span>Oct. 18, 2026</span></div>
+      <div class="date-item"><strong>Camera-ready deadline for accepted papers</strong><span>Nov. 8, 2026</span></div>
+      <div class="date-item"><strong>Actual workshop dates</strong><span>Dec. 1, 2026</span></div>
     </div>
   </div>
 
