@@ -440,7 +440,21 @@ html.has-loader-js body.is-loaded .main-content > section:nth-child(5) { animati
   box-shadow: 0 16px 30px rgba(11, 89, 100, 0.28);
 }
 
+.submit-button-secondary {
+  color: var(--primary) !important;
+  background: rgba(255, 255, 255, 0.84);
+  border: 1px solid rgba(11, 89, 100, 0.22) !important;
+  box-shadow: 0 10px 22px rgba(16, 34, 53, 0.08);
+}
+
+.submit-button-secondary:hover {
+  color: #ffffff !important;
+  background: linear-gradient(135deg, var(--accent), var(--primary-2));
+  border-color: transparent !important;
+}
+
 .submission-action span {
+  flex-basis: 100%;
   color: var(--muted);
   font-family: "Aptos", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.9rem;

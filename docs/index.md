@@ -81,7 +81,10 @@ layout: default
       <a class="submit-button" href="https://wi-lab.com/cyberchair/2026/bibm26/scripts/ws_submit.php?subarea=S" target="_blank" rel="noopener">
         Submit your paper
       </a>
-      <span>Submission page item No. 26</span>
+      <a class="submit-button submit-button-secondary" href="https://www3.cs.stonybrook.edu/~bibm2026/" target="_blank" rel="noopener">
+        Paper format
+      </a>
+      <span>Submission page item No. 26. Paper format follows the IEEE BIBM 2026 main conference requirements.</span>
     </div>
   </div>
 
