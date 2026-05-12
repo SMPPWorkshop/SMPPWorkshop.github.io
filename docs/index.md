@@ -157,6 +157,7 @@ layout: default
   </div>
 </section>
 
+<!--
 <section class="section-block committee-block">
   <div class="section-heading">
     <p class="section-kicker">People</p>
@@ -221,6 +222,7 @@ layout: default
     </div>
   </div>
 </section>
+-->
 
 <script>
   (function () {
