@@ -157,7 +157,6 @@ layout: default
   </div>
 </section>
 
-<!--
 <section class="section-block committee-block">
   <div class="section-heading">
     <p class="section-kicker">People</p>
@@ -182,6 +181,7 @@ layout: default
     </div>
   </div>
 
+  <!--
   <div class="committee-group">
     <h3 class="group-title">Program Committee Members</h3>
     <div class="people-grid compact">
@@ -211,6 +211,7 @@ layout: default
       </article>
     </div>
   </div>
+  -->
 
   <div class="committee-group">
     <h3 class="group-title">Invited Keynote Speaker</h3>
@@ -222,7 +223,6 @@ layout: default
     </div>
   </div>
 </section>
--->
 
 <script>
   (function () {
