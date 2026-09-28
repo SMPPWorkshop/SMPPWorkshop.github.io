@@ -36,7 +36,7 @@ layout: default
       <span>Fully online</span>
     </div>
     <div>
-      <strong>Sep 27, 2026</strong>
+      <strong><del>Sep 27, 2026</del><br>Sep 30, 2026</strong>
       <span>Submission deadline</span>
     </div>
   </div>
@@ -134,7 +134,7 @@ layout: default
       <h2>Important dates</h2>
     </div>
     <div class="date-list">
-      <div class="date-item"><strong>Due date for workshop papers submission</strong><span>Sept. 27, 2026</span></div>
+      <div class="date-item"><strong>Due date for workshop papers submission</strong><span><del>Sept. 27, 2026</del><br>Sept. 30, 2026</span></div>
       <div class="date-item"><strong>Notification of paper acceptance to authors</strong><span>Oct. 18, 2026</span></div>
       <div class="date-item"><strong>Camera-ready deadline for accepted papers</strong><span>Nov. 8, 2026</span></div>
       <div class="date-item"><strong>Actual workshop dates</strong><span>Dec. 1, 2026</span></div>
